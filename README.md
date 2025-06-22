@@ -1,25 +1,51 @@
 >Simulates a championship of football in a console.
-### The football Simulator
+# ⚽ Football Simulator
 
-## How to use the progam:
-- Enter the number of teams
-- Enter the information of the teams one at a time {name,rank,pts}
-- At the end of each day shows the matches of the day with their results
-- At the end of the tournament shows the name of the team with the most points 
+This is a project for c programming lang named **Football Simulator** — its a football championship between user-defined teams.  
+Track matches, log daily results, view leaderboards, and simulate an entire tournament from start to finish!
 
-## The Commands:
-- **help** to open a help in console help menu.
-- **new** to start a new championship.
-- **next** to go to the next day.
-- **log** logs the matches for today in a file (txt).
-- **leader** displays the leaderboards.
-- **quit** stops the program.
+---
 
+## 🚀 How to Use the Program
 
-## Specific info:
-- **win** : Gives the winning team +3 pts
-- **loss** : Gives the losing team +0 pts
-- **draw** : Gives both teams +1 pts
-- **log command** : creates a file named {championship_name}_day{day_Name}.txt with the contents of the current matches and their results
-- **leader command** :  prints the current leader board of the teams 
-- **quit command** : quits the entire program and all information about the current championship **WILL BE LOST**
+1. **Start a new championship**
+   - Enter the number of teams.
+   - Input each team's information one by one:  
+     ➤ `name`, `rank`, and `points`.
+
+2. **Run the tournament**
+   - Matches are generated day by day.
+   - After each day, the results of the matches are displayed.
+
+3. **End of tournament**
+   - The team with the **most points** is declared the winner.
+
+---
+
+## 🕹️ Available Commands
+
+| Command  | Description |
+|----------|-------------|
+| `help`   | Displays a help menu with all available commands. |
+| `new`    | Starts a new football championship. |
+| `next`   | Advances to the next match day. |
+| `log`    | Saves today's matches and results to a `.txt` file. |
+| `leader` | Displays the current leaderboard (ranked by points). |
+| `quit`   | Exits the program. **All unsaved data will be lost.** |
+
+---
+
+## 📊 Points System
+
+| Match Result | Points Awarded           |
+|--------------|---------------------------|
+| Win          | +3 points to the winner   |
+| Draw         | +1 point to each team     |
+| Loss         | 0 points to the loser     |
+
+---
+
+## 📝 Logging Matches
+
+Using the `log` command, the program generates a file:
+
