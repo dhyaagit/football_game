@@ -45,7 +45,32 @@ Track matches, log daily results, view leaderboards, and simulate an entire tour
 
 ---
 
-## 📝 Logging Matches
 
-Using the `log` command, the program generates a file:
+This project contains all match results for that day.
+
+Example: `PremierLeague_day2.txt`
+
+---
+
+## 🏆 Leaderboard
+
+Use the `leader` command to view the current rankings of all teams, sorted by total points.
+
+---
+
+## ⚠️ Data Warning
+
+> Using the `quit` command will immediately exit the simulator.  
+> ⚠️ **All current championship data will be lost** if not logged before quitting.
+
+---
+## 🤝 Contributions
+
+This project was built as a C programming exercise for handling:
+- Structs and file handling
+- Simulations and game logic
+- Console-based UI design
+---
+
+
 
